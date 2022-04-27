@@ -1,0 +1,42 @@
+.course-timeline-card {
+  width: 100%;
+}
+.website-duration {
+  display: flex;
+  justify-content: space-between;
+}
+.course-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 500;
+}
+.duration {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  font-style: italic;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+}
+.tags-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.list-items {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+  background-color: #e2e2e2;
+  max-width: 200px;
+  height: 30px;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
